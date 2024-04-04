@@ -7,7 +7,7 @@ body, html{
   grid-template-rows: 8% 30% auto% 10%;
   grid-template-areas:
     "aside header header headr"
-    "aside section section section"
+    "aside sect1 sect2 sect3"
     "aside main main main"
     "aside footer footer footer";
 }
