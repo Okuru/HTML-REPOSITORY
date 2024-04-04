@@ -1,8 +1,8 @@
 body, html{
   color:red;
-  margin:0;
+  height:100vh
 }
-.container{
+.body{
   display:grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
   grid-template-rows: 15% 20% 20% auto;
