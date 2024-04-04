@@ -11,4 +11,7 @@ body, html{
     "aside main main main"
     "aside footer footer footer";
 }
-
+aside{
+  grid-area:sidebar;
+  background-color:#000FFF;
+}
