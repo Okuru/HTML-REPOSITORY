@@ -5,6 +5,11 @@ body, html{
 .body{
   display:grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
-  grid-template-rows: 15% 20% 20% auto;
+  grid-template-rows: 8% 30% auto% 10%;
+  grid-template-areas:
+    "aside header header headr"
+    "aside section section section"
+    "aside main main main"
+    "aside footer footer footer";
 }
 
